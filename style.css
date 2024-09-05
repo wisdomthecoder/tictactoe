@@ -1,0 +1,61 @@
+ html {
+   font-size: calc(200%);
+   font-family: "Ubuntu";
+ }
+
+ #row1 {
+   display: flex;
+ }
+
+ button {
+   font-size: 50px;
+   padding: 20px 80px;
+   border: none;
+   margin-left: 150px;
+   border-radius: 10px;
+
+ }
+
+ body {
+   background: linear-gradient(to bottom right, hsla(0, 100%, 96%, 0.353), #6a48e521);
+ }
+
+ button:hover {
+   transform: rotate(2deg);
+   transition: border 1s ease, transform 3s ease, background-color 1s ease;
+   background-color: red;
+
+ }
+
+ #win {
+
+   margin: 0px;
+   margin-left: 180px;
+   color: red;
+   display: none;
+
+ }
+
+ div>div {
+   width: 200px;
+   height: 200px;
+   margin: 5px;
+   font-weight: 900;
+   align-content: center;
+   border-radius: 10px;
+   font-size: 100px;
+
+   text-align: center;
+   border: none;
+   background-color: #f0f0f0;
+   border: 0px solid transparent;
+   transition: border 0.3s ease, background-color 0.3s ease;
+   background-color: rgb(221, 221, 221);
+ }
+
+ div>div:hover {
+   border: 1px solid #333;
+   background-color: #d7e3e4;
+   cursor: pointer;
+
+ }
