@@ -6,7 +6,7 @@ let id4 = document.getElementById("id4");
 let id5 = document.getElementById("id5");
 let id6 = document.getElementById("id6");
 let id7 = document.getElementById("id7");
-let id8 = document.getElementById("id8");
+let id8 = document.getElementById("id8");xcfxcv
 let id9 = document.getElementById("id9");
 let winTxt = document.getElementById("win");
 
